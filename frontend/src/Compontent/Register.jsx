@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import "../Style/Register.css"
 import { useNavigate } from 'react-router-dom';
 import { toast } from 'react-hot-toast';
-
+import AuthContext from "../Compontent/Context/AuthContext"
 import axios from "axios";
 
 
