@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import "../Style/Register.css"
 import { useNavigate } from 'react-router-dom';
 import { toast } from 'react-hot-toast';
+
 import axios from "axios";
 
 
@@ -20,7 +21,7 @@ import axios from "axios";
         event.preventDefault();
         if(userData.name && userData.email && userData.password && userData.confirmpassword){
             try {
-                const response=await axios.post("http://localhost:2000/anu/register",{
+                const response=await axios.post("http://localhost:2000/swiggy/register",{
                     name:userData.name,
                     email:userData.email,
                     password:userData.password,

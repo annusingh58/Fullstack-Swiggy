@@ -1,0 +1,143 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#screen-login{
+    height: 350px;
+    width:40%;
+    margin: auto;
+    margin-top: 90px;
+    /* border:5px solid orange; */
+    padding: 10px;
+    box-shadow: 5px 5px 10px rgb(207, 203, 203);
+}
+#sign-login{
+    width:100%;
+    height: 120px;
+    /* border:2px solid black; */
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 15px; */
+}
+#sign-login>div:nth-child(1){
+    width: 60%;
+    height: 115px;
+    /* border:1px solid blue; */
+
+}
+#sign-login>div:nth-child(1)>i{
+    color: gray;
+    
+}
+
+#sign-login>div:nth-child(1)>h3{
+    font-size: 30px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+
+}
+#sign-login>div:nth-child(1)>p{
+    font-size: 16px;
+    color: orange;
+}
+#sign-login>div:nth-child(1)>p>span{
+    color: black;
+}
+#sign-login>div:nth-child(1)>div{
+    height:2px;
+    width:30px;
+    background-color: black;
+    margin-top: 5px;
+    
+}
+ #sign-login>div:nth-child(2){
+    width: 20%;
+    height: 100px;
+    /* border:1px solid blue; */
+    margin-top: 15px;
+
+
+}
+#sign-login>div:nth-child(2)>img{
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid rgb(129, 83, 83); */
+    border-radius: 50%;
+    
+}
+#info-login{
+    width:100%;
+    /* height:200px; */
+    /* border:1px solid gray; */
+    margin-top: 25px;
+}
+#info-login>div{
+    width:100%;
+    height:71px;
+    border:1px solid gray;
+}
+
+#info-login>div>input{
+    height:100%;
+    width:100%;
+    padding-left: 10px;
+    border:none;
+
+}
+
+#screen-login>button:nth-child(3){
+width: 100%;
+height: 40px;
+background-color: orange;
+color: white;
+border: none;
+font-weight: bold;
+margin-top: 20px;
+margin-bottom: 3px;
+
+}
+#screen-login>p:nth-child(4){
+font-size: 14px;
+margin-top: 5px;
+}
+#screen-login>p:nth-child(4)>span{
+color: gray;
+}
+
+
+#form-login{
+    /* height: 300px; */
+    width: 100%;
+    /* border:1px solid red; */
+    margin-bottom: 20px;
+}
+#form-login>div>input{
+    height: 40px;
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding-left: 5px;
+    border:1px solid brown;
+}
+#form-login>div:nth-child(3)>input{
+    width: 50%;
+    margin-left:80px;
+    background-color: brown;
+    color: white;
+}
+
+@media screen and (max-width:1000px) {
+    #screen-login{
+        width: 70%;
+    }
+}
+@media screen and (max-width:700px) {
+    #screen-login{
+        width: 90%;
+        
+    }
+}
+
