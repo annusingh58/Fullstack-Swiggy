@@ -1,0 +1,150 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#screen-register{
+    height: 550px;
+    width:40%;
+    margin: auto;
+    margin-top: 40px;
+    /* border:5px solid orange; */
+    padding: 10px;
+    box-shadow: 5px 5px 10px rgb(207, 203, 203);
+}
+#sign-register{
+    width:100%;
+    height: 120px;
+    /* border:2px solid black; */
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 15px; */
+}
+#sign-register>div:nth-child(1){
+    width: 60%;
+    height: 115px;
+    /* border:1px solid blue; */
+
+}
+#sign-register>div:nth-child(1)>i{
+    color: gray;
+    
+}
+
+#sign-register>div:nth-child(1)>h3{
+    font-size: 30px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+
+}
+#sign-register>div:nth-child(1)>p{
+    font-size: 16px;
+    color: orange;
+}
+#sign-register>div:nth-child(1)>p>span{
+    color: black;
+}
+#sign-register>div:nth-child(1)>div{
+    height:2px;
+    width:30px;
+    background-color: black;
+    margin-top: 5px;
+    
+}
+ #sign-register>div:nth-child(2){
+    width: 20%;
+    height: 100px;
+    /* border:1px solid blue; */
+    margin-top: 15px;
+
+
+}
+#sign-register>div:nth-child(2)>img{
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid rgb(129, 83, 83); */
+    border-radius: 50%;
+    
+}
+#info-register{
+    width:100%;
+    /* height:200px; */
+    /* border:1px solid gray; */
+    margin-top: 25px;
+}
+#info-register>div{
+    width:100%;
+    height:71px;
+    border-top:1px solid gray;
+    border-left:1px solid gray ;
+    border-right:1px solid gray ;
+}
+#info-register>div:nth-child(3){
+    border-bottom:1px solid gray ;
+}
+#info-register>div>input{
+    height:100%;
+    width:100%;
+    padding-left: 10px;
+    border:none;
+
+}
+#screen-register>p:nth-child(3){
+    margin-top: 25px;
+    color: blue;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+#screen-register>button:nth-child(4){
+width: 100%;
+height: 40px;
+background-color: orange;
+color: white;
+border: none;
+font-weight: bold;
+margin-bottom: 3px;
+
+}
+#screen-register>p:nth-child(5){
+font-size: 14px;
+margin-top: 5px;
+}
+#screen-register>p:nth-child(5)>span{
+color: gray;
+}
+
+
+#form-register{
+    height: 250px;
+    width: 100%;
+    /* border:1px solid red; */
+}
+#form-register>div>input{
+    height: 40px;
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding-left: 5px;
+    border:1px solid brown;
+}
+#form-register>div:nth-child(5)>input{
+    width: 50%;
+    margin-left:80px;
+    background-color: brown;
+    color: white;
+}
+
+
+@media screen and (max-width:1000px) {
+    #screen-register{
+        width: 70%;
+    }
+}
+@media screen and (max-width:700px) {
+    #screen-register{
+        width: 90%;
+        
+    }
+}
