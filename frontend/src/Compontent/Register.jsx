@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import "../Style/Register.css"
 import { useNavigate } from 'react-router-dom';
 import { toast } from 'react-hot-toast';
-import AuthContext from "../Compontent/Context/AuthContext"
 import axios from "axios";
 
 
@@ -69,7 +68,7 @@ import axios from "axios";
         </div>
  
         <div id="info-register">
-            <form onsubmit={handleSubmit}>
+            <form onSubmit={handleSubmit}>
 
                 <div id="form-register">
                     <div><input name="name" type="text" placeholder="Name" onChange={handleChange}/></div>
