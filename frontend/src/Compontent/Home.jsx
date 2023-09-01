@@ -132,7 +132,7 @@ const Home = () => {
                 </div>
             </div>
             <div>  
-                                  <h4> WE DELIVER TO</h4>
+                <h4> WE DELIVER TO</h4>
             </div>
             <div>
                 <div>
