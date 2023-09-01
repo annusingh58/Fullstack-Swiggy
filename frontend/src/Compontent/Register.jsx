@@ -51,7 +51,7 @@ import axios from "axios";
     }
 
   return (
-    <>
+    
           <div id="screen-register">
         <div id="sign-register">
 
@@ -86,7 +86,7 @@ import axios from "axios";
         
 
     </div>
-    </>
+    
   )
 }
 export default Register;
