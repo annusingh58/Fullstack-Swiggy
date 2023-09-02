@@ -11,7 +11,9 @@ export const register=async(req,res)=>{
         if(response.length)return res.status(400).json({status:400,success:false ,message:"user already registered"});
 
         const user=new USER({
-            name,email,password
+            name,
+            email,
+            password
         })
         await user.save();
         return res.status(200).json({status:200,success:true,message:"User registered successfuly"})

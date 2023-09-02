@@ -28,7 +28,7 @@ const HandleAuthContext=({children})=>{
         const token =JSON.parse(localStorage.getItem("JWTToken"));
         async function getcurrentuser(){
            if(token){
-            const response=await axios.post("http://localhost:2000/swiggy/getcurrentuserr",{token})
+            const response=await axios.post("http://localhost:2000/swiggy/getcurrentuser",{token})
          
             if(response.data.success){
                 dispatch({

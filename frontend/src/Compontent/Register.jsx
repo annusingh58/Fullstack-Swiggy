@@ -1,12 +1,13 @@
 import React, { useState } from 'react'
 import "../Style/Register.css"
 import { useNavigate } from 'react-router-dom';
-import { toast } from 'react-hot-toast';
 import axios from "axios";
+
+import { toast } from 'react-hot-toast';
 
 
  const Register = () => {
-    const [userData,setUserData]=useState({name:"",email:"",password:"",confirmpassword:""})
+    const [userData,setUserData]=useState({name:"",email:"",password:"",confimpassword:""})
 
     const router =useNavigate();
     console.log(userData,"userData");
@@ -18,13 +19,13 @@ import axios from "axios";
 
     const handleSubmit=async(event)=>{
         event.preventDefault();
-        if(userData.name && userData.email && userData.password && userData.confirmpassword){
+        if(userData.name && userData.email && userData.password && userData.confimpassword){
             try {
                 const response=await axios.post("http://localhost:2000/swiggy/register",{
                     name:userData.name,
                     email:userData.email,
                     password:userData.password,
-                    confirmpassword:userData.confirmpassword
+                    confirmpassword:userData.confimpassword
 
                 });
 
@@ -59,7 +60,7 @@ import axios from "axios";
                 <i class="fa-solid fa-xmark"></i>
                 <h3>Sign up</h3>
                 <p> <span>or</span> login to your accout</p>
-                <div></div>
+                
             </div>
             <div>
                 <img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/Image-login_btpq7r"/>
@@ -71,10 +72,10 @@ import axios from "axios";
             <form onSubmit={handleSubmit}>
 
                 <div id="form-register">
-                    <div><input name="name" type="text" placeholder="Name" onChange={handleChange}/></div>
-                    <div><input name="email" type="email" placeholder="Enter Email Id" onChange={handleChange}/></div>
-                    <div><input name="password" type="password" placeholder="password" onChange={handleChange}/></div>
-                    <div><input name="confimpassword" type="password" placeholder="confimpassword" onChange={handleChange}/></div>
+                    <div><input name="name" type="text" placeholder="Name" onChange={handleChange} /></div>
+                    <div><input name="email" type="email" placeholder="Enter Email Id" onChange={handleChange} /></div>
+                    <div><input name="password" type="password" placeholder="password" onChange={handleChange} /></div>
+                    <div><input name="confimpassword" type="password" placeholder="confimpassword" onChange={handleChange} /></div>
                     <div><input type="submit" value="Signup"/></div>
 
                 </div>
@@ -82,7 +83,7 @@ import axios from "axios";
         </div>
         <p>Have a referral code?</p>
         
-        <p><span>By creating an account, I accept the</span> Terms & Conditions & Privacy Policy</p>
+        <p>By creating an account, I accept the Terms & Conditions & Privacy Policy</p>
         
 
     </div>
