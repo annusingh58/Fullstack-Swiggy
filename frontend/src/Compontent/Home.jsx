@@ -6,7 +6,7 @@ import { useNavigate } from 'react-router-dom';
 
 const Home = () => {
 
-    const {state,dispatch} =useContext(AuthContext); 
+    const {state,dispatch} = useContext(AuthContext); 
     const username =state?.user?.name;
     const router =useNavigate();
 
