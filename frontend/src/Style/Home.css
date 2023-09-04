@@ -35,6 +35,14 @@
     display: flex;
     margin-top: 40px;
     justify-content: space-between;
+     
+   }
+
+   #backg{
+    background-image: url("../Images/swiggy1.jpeg");
+    background-repeat: no-repeat;
+    /* object-fit: cover; */
+    background-size: cover;
    }
    #swiggy-home>div:nth-child(1)>div:nth-child(1)>div:nth-child(1){
     width: 20%;
