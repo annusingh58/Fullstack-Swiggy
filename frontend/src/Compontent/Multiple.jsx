@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import axios from "axios";
 import toast from 'react-hot-toast';
-import useNavigate from 'react-router-dom'
+import {useNavigate} from 'react-router-dom'
 
 const Multiple = () => {
       const [products, setProducts] = useState([]);
-    const router = useNavigate();
+    const router= useNavigate();
     useEffect(() => {
         async function getAllProducts() {
             try {

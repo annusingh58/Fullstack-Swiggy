@@ -5,6 +5,7 @@ import Register from './Compontent/Register';
 import Login from './Compontent/Login';
 import Home from './Compontent/Home';
 import Multiple from './Compontent/Multiple';
+import Addform from './Compontent/Addform';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
     <Route exact path="/login" element={<Login />} />
     <Route exact path="/home" element={<Home />} />
     <Route exact path="/multiple" element={<Multiple />} />
+    <Route exact path="/addform" element={<Addform/>}/>
    
 
 </Routes>
