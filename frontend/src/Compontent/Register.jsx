@@ -25,7 +25,8 @@ import { toast } from 'react-hot-toast';
                     name:userData.name,
                     email:userData.email,
                     password:userData.password,
-                    confirmpassword:userData.confimpassword
+                    confirmpassword:userData.confimpassword,
+                    role:userData.role
 
                 });
 
@@ -76,6 +77,13 @@ import { toast } from 'react-hot-toast';
                     <div><input name="email" type="email" placeholder="Enter Email Id" onChange={handleChange} /></div>
                     <div><input name="password" type="password" placeholder="password" onChange={handleChange} /></div>
                     <div><input name="confimpassword" type="password" placeholder="confimpassword" onChange={handleChange} /></div>
+                    <div>
+                     <select name="role" onChange={handleChange}>
+                    <option value="buyer">Buyer</option>
+                    <option value="seller" >Seller</option>
+                     </select>
+                    </div>
+     
                     <div><input type="submit" value="Signup"/></div>
 
                 </div>
