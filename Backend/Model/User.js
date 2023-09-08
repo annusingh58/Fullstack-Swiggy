@@ -11,7 +11,5 @@ const user=new Schema({
         enum:['buyer','seller','admin'],
         default:'buyer'
     }
-});
-
-
+})
 export default mongoose.model("USER",user)
