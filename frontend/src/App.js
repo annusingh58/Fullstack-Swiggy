@@ -6,12 +6,12 @@ import Login from './Compontent/Login';
 import Home from './Compontent/Home';
 import Multiple from './Compontent/Multiple';
 import Addform from './Compontent/Addform';
-import Navbar from './Global/Navbar.jsx'
+// import Navbar from './Global/Navbar.jsx'
 function App() {
   return (
     
 <>
-<Navbar/>
+
 <Routes>
   
     <Route exact path="/register" element={<Register />} />

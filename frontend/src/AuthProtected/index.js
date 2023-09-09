@@ -10,7 +10,7 @@ function AuthProtected({children}){
     useEffect(()=>{
         if(!state?.user?.name){
             setTimeout(() => {
-                router('/myntrahome')
+                router('/')
             }, 3000);
         }
     },[state])

@@ -37,7 +37,7 @@ const Login = () => {
                     });
                     localStorage.setItem("JWTToken",JSON.stringify(data.token));
                     alert(data.message);
-                    router('/home');
+                    router('/');
                 }
                 
             } catch (error) {
@@ -56,6 +56,7 @@ const Login = () => {
     
         
   return (
+    <>
      <div id="screen-login">
         <div id="sign-login">
 
@@ -85,7 +86,7 @@ const Login = () => {
         <p><span>By clicking on Login, I accept the,</span> Terms & Conditions & Privacy Policy</p>
         </div>
     
-    
+        </>
   )
 }
 

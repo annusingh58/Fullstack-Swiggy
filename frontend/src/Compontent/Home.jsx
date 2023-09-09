@@ -14,7 +14,8 @@ const Home = () => {
         })
     }
     
-  return (<>
+  return (
+  <>
     
     
  <div>
@@ -49,7 +50,7 @@ const Home = () => {
                     <div>
                         <input type="Enter yur delivery location" placeholder="Enter your delivery location"/>
                         <p>Locate me</p>
-                        <button onclick='window.location.href="./swiggylocation.html"'>FIND FOOD</button>
+                        <button onClick={()=>router('/multiple')}>FIND FOOD</button>
                     </div>
                     <div>
                         <p>POPULAR CITIES IN INDIA</p>
@@ -200,6 +201,7 @@ const Home = () => {
 
         </div>
     </div>
-    </>)
+    </>
+    )
 }
 export default Home

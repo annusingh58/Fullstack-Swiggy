@@ -7,7 +7,7 @@ import { toast } from 'react-hot-toast';
 
 
  const Register = () => {
-    const [userData,setUserData]=useState({name:"",email:"",password:"",confimpassword:""})
+    const [userData,setUserData]=useState({name:"",email:"",password:"",confimpassword:"",role:"buyer"})
 
     const router =useNavigate();
     console.log(userData,"userData");

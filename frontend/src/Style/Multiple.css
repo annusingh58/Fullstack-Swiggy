@@ -107,7 +107,7 @@
       flex-wrap: wrap;
       
   }
-  #pic>div{
+  #pic-multiple>div{
       width:20%;
       height: 350px;
       /* border:3px solid green; */
@@ -115,11 +115,11 @@
        padding: 10px;
        
   }
-  #pic>div:hover {
+  #pic-multiple>div:hover {
       border:1px solid gray;
       display: block;
   }
-  #pic>div:hover #none{
+  #pic-multipleic>div:hover #none{
       display: block ;
       height:0px;
       /* border:1px solid red; */
@@ -140,35 +140,35 @@
 
 
 
-  #pic>div>div:nth-child(1){
+  #pic-multiple>div>div:nth-child(1){
       width:100%;
       height: 200px;
       /* border:2px solid red; */
   }
-  #pic>div>div:nth-child(1)>img{
+  #pic-multiple>div>div:nth-child(1)>img{
       width: 100%;
       height: 100%;
       
   }
-  #pic>div>div:nth-child(2)>h4{
+  #pic-multiple>div>div:nth-child(2)>h4{
       font-size: medium;
       margin-top:11px;
   
 
   }
-  #pic>div>div:nth-child(2)>p{
+  #pic-multiple>div>div:nth-child(2)>p{
       font-size: 12px;
       margin-top: 5px;
 
 
   }
-  #pic>div>div:nth-child(2)>p:nth-child(3){
+  #pic-multiple>div>div:nth-child(2)>p:nth-child(3){
       color:grey;
       margin-bottom: 5px;
   }
 
 
-  #pic>div>div:nth-child(2)>h6{
+  #pic-multiple>div>div:nth-child(2)>h6{
       color: brown;
       border-top:1px solid gray;
       font-size: 15px;
@@ -177,7 +177,7 @@
       
       
   }
-  #footer{
+  #footer-multiple{
       height: 850px;
       width: 100%;
       /* border: 5px solid red; */
@@ -186,12 +186,12 @@
       margin-top: 43px;
       
      }
-     #footer>div{
+     #footer-multiple>div{
       width:90% ;
       margin:auto;
       /* border-bottom: 2px solid gray; */
      }
-     #footer >div:nth-child(1){
+     #footer-multiple >div:nth-child(1){
       width: 90%;
       height:450px ;
       border-bottom: 1px solid gray;
@@ -199,13 +199,13 @@
       margin-bottom: 25px;
       
      }
-     #footer >div:nth-child(1)>div{
+     #footer-multiple >div:nth-child(1)>div{
       width: 35%;
       height: 450px;
       /* border: 4px solid gold; */
       
      }
-     #footer >div:nth-child(1)>div>h4{
+     #footer-multiple >div:nth-child(1)>div>h4{
       margin-top: 55px;
       margin-left: 15px;
       margin-bottom: 35px;
@@ -213,11 +213,11 @@
       color: gray;
 
      }
-     #footer >div:nth-child(1)>div>p{
+     #footer-multiple >div:nth-child(1)>div>p{
       margin-top: 20px;
       font-size: 20px;
      }
-     #footer >div:nth-child(1)>div:nth-child(4)>img{
+     #footer-multiple >div:nth-child(1)>div:nth-child(4)>img{
       margin-top: 45px;
       height: 75px;
 
@@ -225,7 +225,7 @@
 
 
 
-     #footer >div:nth-child(3){
+     #footer-multiple >div:nth-child(3){
       width: 90%;
       /* height:450px ; */
       margin-top: 20px;
@@ -236,19 +236,19 @@
      
 
      
-    #footer >div:nth-child(3)>div{
+    #footer-multiple >div:nth-child(3)>div{
       width: 35%;
       /* height: 380px; */
      /* border: 3px solid yellow; */
     }
-    #footer >div:nth-child(3)>div>p{
+    #footer-multiple >div:nth-child(3)>div>p{
       margin-top: 25px;
       font-size: 20px;
 
      }
 
      
-    #footer >div:nth-child(2)>h4{
+    #footer-multiple >div:nth-child(2)>h4{
       margin-top: 5px;
       margin-left: 15px;
       margin-bottom: 25px;
