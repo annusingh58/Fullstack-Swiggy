@@ -15,7 +15,7 @@ const Single = () => {
 
     async function addCart(){
         try {
-            const response=await axios.post("http://localhost:2000/myntra/addToCart",{userId:state?.user?._id,productId:id})
+            const response=await axios.post("http://localhost:2000/swiggy/addToCart",{userId:state?.user?._id,productId:id})
             if(response.data.success){
                 alert(response.data.message);
                 router('/cart')
@@ -150,7 +150,7 @@ const Single = () => {
                         </div>
                         <div>
                             <img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/262656fef145b5595ea2a7cc68508b20"/>
-                            <!-- <button onclick="addcart()">ADD CART</button> -->
+                             <button onclick="addcart()">ADD CART</button>
 
                         </div>
                     </div>
